@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+  .sign__parent {
+    display: flex;
+  }
+
+  .sign__container {
+    min-height: 100vh;
+    width: 70vw;
+    font-family: "Noto Serif", serif;
+    position: relative;
+    background-color: #330055;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%2336005c' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23390064' cx='50' cy='100' r='50'/%3E%3Cg fill='%233c006b' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%233f0073' cx='50' cy='200' r='50'/%3E%3Cg fill='%2342007b' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23450083' cx='50' cy='300' r='50'/%3E%3Cg fill='%2347008b' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%234a0093' cx='50' cy='400' r='50'/%3E%3Cg fill='%234c009b' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%234e01a4' cx='50' cy='500' r='50'/%3E%3Cg fill='%235003ac' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%235104b5' cx='50' cy='600' r='50'/%3E%3Cg fill='%235307be' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%235409c7' cx='50' cy='700' r='50'/%3E%3Cg fill='%23540cd0' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23550fd9' cx='50' cy='800' r='50'/%3E%3Cg fill='%235512e2' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%235516ec' cx='50' cy='900' r='50'/%3E%3Cg fill='%235419f5' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23531cff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
+  }
+  .sign__container>div {
+    position: absolute;
+    width: 50%;
+    left: 10%;
+    top: 20%;
+  }
+  .sign__formContainer {
+    padding: 2rem;
+    margin-top: 20%;
+  }
+  .sign__formParentContainer {
+    width: 30vw;
+    min-height: 100vh;
+  }
+  .sign__form {
+    display: flex;
+    flex-flow: column;
+  }
+  .sign__signupheading {
+    font-size: 52px;
+    font-weight: 800;
+    margin: 0px 0px 10px 0px;
+    align-self: center;
+    color: #531cff;
+  }
+  .sign__input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    width: 90%;
+    margin-top: 8px;
+  }
+  .sign__label {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 10px 0px 0px 5px;
+    color: #8c8c8c;
+  }
+  .sign__button {
+    margin-top: 2rem;
+    background-color: #531cff;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    width: 95%;
+    cursor: pointer;
+  }
+  .sign__signinLink {
+    align-self: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #8c8c8c;
+  }
+  .sign__signinLink:span {
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+  }
+  .sign__leadhead {
+    font-size: 72px;
+    color: white;
+    font-weight: 100;
+    margin: 0px;
+  }
+  .sign__head {
+    font-size: 28px;
+    font-weight: 100;
+    color: #bfbfbf;
+  }
+  .sign__learnbuttons {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    color: mediumpurple;
+    width: 30%;
+  }
+  .sign__morefeaturesbutton {
+    padding: 10px 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    color: #e6e6e6;
+    background-color: transparent;
+    margin-left: 10px;
+    width: 30%;
+  }
+  @media (max-width: 768px) {
+    .sign__container {
+      display: none;
+    }
+    .sign__formParentContainer {
+      min-height: 100vh;
+      width: -webkit-fill-available;
+      background-color: #330055;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%2336005c' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23390064' cx='50' cy='100' r='50'/%3E%3Cg fill='%233c006b' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%233f0073' cx='50' cy='200' r='50'/%3E%3Cg fill='%2342007b' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23450083' cx='50' cy='300' r='50'/%3E%3Cg fill='%2347008b' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%234a0093' cx='50' cy='400' r='50'/%3E%3Cg fill='%234c009b' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%234e01a4' cx='50' cy='500' r='50'/%3E%3Cg fill='%235003ac' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%235104b5' cx='50' cy='600' r='50'/%3E%3Cg fill='%235307be' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%235409c7' cx='50' cy='700' r='50'/%3E%3Cg fill='%23540cd0' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23550fd9' cx='50' cy='800' r='50'/%3E%3Cg fill='%235512e2' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%235516ec' cx='50' cy='900' r='50'/%3E%3Cg fill='%235419f5' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23531cff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+      background-attachment: fixed;
+      background-size: contain;
+    }
+    .sign__signupheading {
+      color: white;
+    }
+    .sign__button {
+    background-color: chocolate;
+    }
+    .sign__signinLink {
+      color: white;
+    }
+    .sign__signinLink:span{
+        color: white;
+      }
+  }
+
